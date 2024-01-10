@@ -13,11 +13,11 @@ def translate_text(text, target_language='en'):
         return text
     import requests, uuid
 
-    resource_key = 'a35d6c772133461f9d9f893b0a73e243'
+    resource_key = a35d6c772133461f9d9f893b0a73e243'
 
     region = 'centralindia'
 
-    endpoint = 'https://api.cognitive.microsofttranslator.com'
+    endpoint = 'https://api.cognitive.microsofttranslator.com/'
 
     path = '/translate?api-version=3.0'
     params = f'&from=en&to={target_language}'
@@ -71,7 +71,7 @@ if 'target_language' not in st.session_state:
     st.session_state["Creator"] = 'Magicbus Team' #Can Insert your name here
 
 
-st.title(translate_text('Movie Recommendendation System',st.session_state['target_language']))
+st.title(translate_text('Movie Recommender System',st.session_state['target_language']))
 
 selected_movie_name = st.selectbox(
     translate_text('Suggest me a movie: ',st.session_state['target_language']),
