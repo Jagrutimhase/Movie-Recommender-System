@@ -13,7 +13,7 @@ def translate_text(text, target_language='en'):
         return text
     import requests, uuid
 
-    resource_key = a35d6c772133461f9d9f893b0a73e243'
+    resource_key ='dd25865f3cf34f4697dc24134a7c8b3b'
 
     region = 'centralindia'
 
