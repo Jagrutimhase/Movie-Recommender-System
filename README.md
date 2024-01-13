@@ -90,6 +90,5 @@ Here I am attaching the final working website's screenshot for the reference.
 
 
  Contact:
-- For questions or suggestions, please contact [vishwakarmaashwini2105@gmail.com]
-- [jagrutimhase00@gmail.com]
+- For questions or suggestions, please contact [jagrutimhase00@gmail.com]
   
